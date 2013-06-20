@@ -1,0 +1,175 @@
+@font-face { /* declare fonts */
+	font-family: "MuseoSans";
+	src: url("../fonts/MuseoSans_500-webfont.eot");
+	src: local("MuseoSans"), local("MuseoSans_500-webfont"),
+		url("../fonts/MuseoSans_500-webfont.woff") format("woff"),
+		url("../fonts/MuseoSans_500-webfont.otf") format("opentype"),
+		url("../fonts/MuseoSans_500-webfont.svg#MuseoSans") format("svg");}
+
+@font-face { /* declare fonts */
+	font-family: "Museo500";
+	src: url("../fonts/Museo500-Regular-webfont.eot");
+	src: local("Museo500"), local("Museo500-Regular-webfont"),
+		url("../fonts/Museo500-Regular-webfont.woff") format("woff"),
+		url("../fonts/Museo500-Regular-webfont.otf") format("opentype"),
+		url("../fonts/Museo500-Regular-webfont.svg#Museo500") format("svg");}
+		
+		/* display fonts */
+			
+		p, h1 { 
+			font: 18px/1 MuseoSans, Verdana, sans-serif;
+			color: rgb(112,98,89); }	
+			
+		nav, a  { 
+			font: 14px/1 Museo500, Verdana, sans-serif;
+			color: rgb(226,76,1); 
+			text-decoration: none;} 
+
+		figcaption { 
+			font: 10px/1 MuseoSans, Verdana, sans-serif;
+			color: rgb(112,98,89); }
+
+		.sectionnote { 
+			font: 12px/1 MuseoSans, Verdana, sans-serif;
+			color: rgb(112,98,89);
+			font-style: italic; }
+
+		#copyright { 
+			font: 10px/1 MuseoSans, Verdana, sans-serif;
+			color: rgb(112,98,89); 
+			text-align: center;}
+
+
+html {
+	width: 100%;
+}
+
+
+body {
+	width: 500px;
+	margin: 40px auto 40px auto;
+	background-color: rgb(255,255,255);
+	text-align: center;
+}
+
+
+#headerdoodle {
+	margin-bottom: -87px;
+	position: relative;
+	z-index: 99;
+}
+
+
+nav, ul, li {
+	display: inline-block;
+	margin: 0 5px 20px 5px;
+	word-spacing: 1px;
+}
+
+
+nav {
+	width: 500px;
+	border-bottom: solid;
+	border-width: 4px;
+	border-color: rgb(226,221,219);
+	margin-left: -11px;	
+}
+
+
+h1 {
+	border-top: solid;
+	border-width: 4px;
+	border-color: rgb(226,221,219);
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding: 40px 0 40px 0;
+	clear: both;
+}
+
+
+p {
+	text-align: left;
+	line-height: 130%;
+	word-spacing: 3px;
+}
+
+span {
+	display: inline-block;
+	margin-top: 15px;
+}
+span:first-child {
+	margin-top: none;
+}
+
+
+.sectionnote {
+	clear: both;
+	line-height: 130%;
+}
+
+
+.h1circlesp {
+	margin-right: -115px;
+	margin-bottom: -15px;
+}
+
+
+.h1circlesls {
+	margin-right: -110px;
+	margin-bottom: -15px;
+}
+
+
+.h1circlesw {
+	margin-right: -122px;
+	margin-bottom: -15px;
+}
+
+
+.h1circleste {
+	margin-right: -100px;
+	margin-bottom: -15px;
+}
+
+
+.portfolioimage {
+	border: 1px solid #D2CCC9; 
+	margin-top: 20px;
+}
+
+.portfolioimage:first-child{
+	margin-top: 0px;
+}
+
+
+.rightrow {
+	float: right;
+	margin-bottom: 40px;
+}
+
+
+.leftrow {
+	float: left;
+	margin-bottom: 40px;
+}
+
+
+.wallpapers {
+	margin-top: 10px
+}
+.wallpapers:first-child {
+	border-top: 0px;
+}
+
+
+figure {
+	margin-bottom: 40px;
+}
+
+
+.copyright {
+	margin-bottom: 0px;
+}
+
+
+
