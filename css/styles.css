@@ -34,6 +34,12 @@
 			color: rgb(112,98,89);
 			font-style: italic; }
 
+		.sectionnotelink {font: 12px/1 Museo500, Verdana, sans-serif;
+			color: rgb(226,76,1);
+			font-style: italic; }
+
+		}
+
 		#copyright { 
 			font: 10px/1 MuseoSans, Verdana, sans-serif;
 			color: rgb(112,98,89); 
