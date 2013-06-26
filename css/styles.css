@@ -38,8 +38,6 @@
 			color: rgb(226,76,1);
 			font-style: italic; }
 
-		}
-
 		#copyright { 
 			font: 10px/1 MuseoSans, Verdana, sans-serif;
 			color: rgb(112,98,89); 
@@ -59,6 +57,11 @@ body {
 }
 
 
+a:hover {
+	color: rgb(255,144,18);
+}
+
+
 #headerdoodle {
 	margin-bottom: -87px;
 	position: relative;
@@ -70,6 +73,8 @@ nav, ul, li {
 	display: inline-block;
 	margin: 0 5px 20px 5px;
 	word-spacing: 1px;
+	position: relative;
+	z-index: 100;
 }
 
 
@@ -98,6 +103,7 @@ p {
 	line-height: 130%;
 	word-spacing: 3px;
 }
+
 
 span {
 	display: inline-block;
@@ -142,7 +148,6 @@ span:first-child {
 	border: 1px solid #D2CCC9; 
 	margin-top: 20px;
 }
-
 .portfolioimage:first-child{
 	margin-top: 0px;
 }
