@@ -45,15 +45,17 @@
 
 
 html {
-	width: 100%;
+	width: 100%;	
 }
 
 
 body {
 	width: 500px;
 	margin: 40px auto 40px auto;
-	background-color: rgb(255,255,255);
-	text-align: center;
+	text-align: center;	
+	background-image: url("images/worn_dots.png");
+	background-repeat: repeat;
+	background-color: rgba(255,255,255,0.5);
 }
 
 
@@ -65,25 +67,31 @@ a:hover {
 #headerdoodle {
 	margin-bottom: -87px;
 	position: relative;
-	z-index: 99;
+	z-index: 9;
 }
 
 
 nav, ul, li {
 	display: inline-block;
-	margin: 0 5px 20px 5px;
+	margin: 0 10px 20px 10px;
 	word-spacing: 1px;
 	position: relative;
-	z-index: 100;
+	z-index: 10;
+}
+li:first-child {
+	margin-left: 0px;
+}
+
+#contactlist {
+	margin-left: -20px;
 }
 
 
 nav {
 	width: 500px;
-	border-bottom: solid;
-	border-width: 4px;
-	border-color: rgb(226,221,219);
 	margin-left: -11px;	
+	position: relative;
+	z-index: 10;
 }
 
 
@@ -102,6 +110,15 @@ p {
 	text-align: left;
 	line-height: 130%;
 	word-spacing: 3px;
+}
+
+
+#intro {
+	border-top: solid;
+	border-width: 4px;
+	border-color: rgb(226,221,219);
+	padding-top: 25px;
+	margin-top: -30px;
 }
 
 
@@ -126,14 +143,14 @@ span:first-child {
 }
 
 
-.h1circlesls {
-	margin-right: -110px;
+.h1circlesw {
+	margin-right: -122px;
 	margin-bottom: -15px;
 }
 
 
-.h1circlesw {
-	margin-right: -122px;
+.h1circlesc {
+	margin-right: -98px;
 	margin-bottom: -15px;
 }
 
@@ -145,7 +162,7 @@ span:first-child {
 
 
 .portfolioimage {
-	border: 1px solid #D2CCC9; 
+	border: 2px solid #D2CCC9; 
 	margin-top: 20px;
 }
 .portfolioimage:first-child{
@@ -166,10 +183,14 @@ span:first-child {
 
 
 .wallpapers {
-	margin-top: 10px
+	margin-top: 40px;
+	margin-bottom: 5px;
+	border: 2px solid #D2CCC9; 	
 }
 .wallpapers:first-child {
 	border-top: 0px;
+	margin-top: 20px;
+	border: 2px solid #D2CCC9; 
 }
 
 
